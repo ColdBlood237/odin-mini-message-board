@@ -1,0 +1,9 @@
+h1 Send a Message 
+form(method='POST' action='/new')
+  label(for='name') Your name:
+  input#name(type='text' placeholder='name' name="name")
+  label(for='message') Your message:
+  input#message(type='text' placeholder='message' name="message")
+  button(type='submit') Send message
+
+a(href='/') homepage
